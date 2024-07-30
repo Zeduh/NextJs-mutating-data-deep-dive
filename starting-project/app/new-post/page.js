@@ -8,11 +8,11 @@ export default function NewPostPage() {
     const content = formData.get('content');
 
     storePost({
-      imageUrl: '',
+      imageUrl: '', 
       title,
       content,
-      userId: 1
-    })
+      userId: 1,
+    });
   }
 
   return (
